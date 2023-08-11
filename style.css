@@ -1,0 +1,223 @@
+
+/* ---------------------------------------- Wrapper ---------------------------------------- */
+
+#wrapper {
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #12130F;
+}
+blockquote {
+    border-left: 4px solid #333;
+    margin: 0;
+    padding-left: 25px;
+}
+cite {
+    display: block;
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* ---------------------------------------- Navbar ---------------------------------------- */
+
+.navbar {
+    width: 85rem;
+    padding: 1px 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5B9279;
+}
+/* ----------- Tabs list ----------- */
+.navbar .tabs {
+    flex-grow: 1;
+    flex-shrink: 1;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    
+}
+.navbar .tabs li a {
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 2rem;
+    border-right: solid black ;
+    border-top: 0;
+    border-bottom: 0;
+    
+}
+/* ----------- Socials icons ----------- */
+.navbar .socials {
+    flex-grow: 0;
+    flex-shrink: 0;
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.navbar .socials li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    height: 40px;
+    /* font-size: 0.8rem; */
+    padding: 0 1rem;
+    border-right: solid black ;
+    border-top: 0;
+    border-bottom: 0;
+}
+.navbar .socials li a img {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* ---------------------------------------- Head ---------------------------------------- */
+
+.head {
+    height: 40rem;
+    /* border: 2px solid red; */
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+
+}
+.head div {
+    width: 50%;
+    height: 100%;
+}
+.head .img {
+    background-image: url(/Assests/images/bg_6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.head .quote {
+    background-color: #12130F;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.head .quote h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #333;
+}
+
+/* ---------------------------------------- Name ---------------------------------------- */
+
+.name {
+    display: flex;
+    background-color: #8FCB9B;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.name #namediv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.name #namediv h2 {
+    font-size: 5rem ;
+    margin: 0;
+    
+}
+.name #namediv h4 {
+    font-size: 2rem ;
+    margin: 0;
+}
+
+/* ---------------------------------------- About ---------------------------------------- */
+
+.about {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.about .description {
+    width: 50%;
+}
+.about .img {
+    background-image: url(/Assests/images/bg_1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50rem;
+}
+.about .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #EAE6E5;
+    
+}
+.about .text p {
+    padding: 1rem 0.5rem;
+    margin: 0;
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 20px;
+}
+
+.about .text .button button {
+    background: none;
+    border: none;
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 24px;
+}
+
+.about .text .button {
+    display: flex;
+    text-decoration: none;
+}
+
+/* ---------------------------------------- Footer ---------------------------------------- */
+
+.footer {
+    width: 100%;
+    background-color: #8F8073;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------- Contact & icons ----------- */
+
+.contact {
+    display: flex;
+}
+.contact .c-socials {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    
+}
+.contact .c-socials li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    height: 40px;
+    padding: 0 1rem;
+    border-right: solid black ;
+    border-top: 0;
+    border-bottom: 0;
+}
+.contact .c-socials li a img {
+    width: 40px;
+    height: 40px;
+}
